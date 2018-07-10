@@ -1,0 +1,24 @@
+<select name="lugar">
+			<option value="">Auditorio</option>
+			<option value="">Sala de Juicios Orales</option>
+			<option value="">Aula digital</option>
+			<option value="">Sala audiovisual</option>
+			<option value="">Lobby A</option>
+			<option value="">Pasillo C</option>
+			<option value="">Lobby B</option>
+			<option value="">Lobby C</option>
+			<option value="">Explanada</option>
+			<option value="">Aula de capacitación</option>
+			<option value="">Aula digital</option>
+			<option value="">Sala de Cómputo 1</option>
+			<option value="">Sala de Cómputo 2</option>
+			<option value="">Sala de Cómputo 4</option>
+			<option value="">Sala de Cómputo 5</option>
+			<option value="">Sala de Cómputo 6</option>
+			<option value="">Sala de Mac</option>
+			<option value="">Laboratorio de Redes</option>
+			<option value="">Cancha de Básquetbol</option>
+			<option value="">Cancha de Fútbol</option>
+			<option value="">Campo de tiro con Arco</option>
+			<option value="">Cancha de Voleibol</option>		
+		</select>

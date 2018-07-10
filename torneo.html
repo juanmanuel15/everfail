@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Conferencia</title>
+</head>
+<body>	
+		<form action="enviar.php" method="post">
+			
+		Tipo de actividad: 
+		<select name = "tipoActividad">
+			<option value="torneo">Torneo</option>
+			<option value="concurso">Concurso</option>
+			<option value="rally">Rally</option>			
+		</select><br/>
+
+
+		Título: <input type="text" name="titulo"><br/>		
+		Organizadores: <br/>
+		Grado: <input type="text" name="grado1">
+		Nombre: <input type="text" name="nombre1"> 
+		Apellido Paterno: <input type="text" name="apellidoP1"> Apellido Materno: <input type="text" name="apellidoM1"><br/>
+
+		Grado: <input type="text" name="grado2">
+		Nombre: <input type="text" name="nombre2"> 
+		Apellido Paterno: <input type="text" name="apellidoP2"> Apellido Materno: <input type="text" name="apellidoM2"><br/>
+		
+		Grado: <input type="text" name="grado3">
+		Nombre: <input type="text" name="nombre3"> 
+		Apellido Paterno: <input type="text" name="apellidoP3"> Apellido Materno: <input type="text" name="apellidoM3"><br/><br/>
+
+		Fecha <input type="date" name="fecha"> <br/>
+		Hora Inicial: <input type="time" name="hora_inicial">
+		Hora Final: <input type="time" name="hora_final"> <br/>
+		Lugar sugerido: 
+		<select name="lugar">
+			<option value="auditorio">Auditorio</option>
+			<option value="acapacitacion">Aula de capacitación</option>
+			<option value="adigital">Aula digital</option>
+			<option value="adigital2">Aula digital</option>
+			<option value="tiroArco">Campo de tiro con Arco</option>
+			<option value="basquet">Cancha de Básquetbol</option>
+			<option value="futbol">Cancha de Fútbol</option>
+			<option value="volei">Cancha de Voleibol</option>
+			<option value="explanada">Explanada</option>
+			<option value="redes">Laboratorio de Redes</option>
+			<option value="lobbyA">Lobby A</option>
+			<option value="lobbyB">Lobby B</option>
+			<option value="lobbyC">Lobby C</option>
+			<option value="pasilloC">Pasillo C</option>
+			<option value="audiovisual">Sala audiovisual</option>
+			<option value="computo1">Sala de Cómputo 1</option>
+			<option value="computo2">Sala de Cómputo 2</option>
+			<option value="computo4">Sala de Cómputo 4</option>
+			<option value="computo5">Sala de Cómputo 5</option>
+			<option value="computo6">Sala de Cómputo 6</option>
+			<option value="sjuicios">Sala de Juicios Orales</option>
+			<option value="smac">Sala de Mac</option>
+		</select><br/>
+		
+		Cupo máximo: <input type="text" name="cupo"><br/>
+		Breve descripcion la actividad: <input type="text" name="descripcion">
+		Prerrequisitos: <input type="text" name="prerrequisitos">
+		Materiales que deben llevar los participantes: <input type="number" name="materiales" ><br/>
+		
+		Requerimientos: 
+		<select name="requerimientos">
+			<option value="balon">Balones</option>
+			<option value="agua">Agua</option>
+			<option value="medico">Médico</option>
+		</select>
+		Otro:<textarea name="Otro"></textarea>
+		
+		Solicitud de información adicional: <textarea name="infadicional"></textarea><br/>
+
+		<input type="submit" name="enviar" value="Enviar">
+		<input type="reset" name="borrar" value="Borrar">
+
+		</form>
+
+</body>
+</html>
