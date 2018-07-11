@@ -63,15 +63,16 @@
 		Prerrequisitos: <input type="text" name="prerrequisitos">
 		Materiales que deben llevar los participantes: <input type="number" name="materiales" ><br/>
 		
-		Requerimientos: 
-		<select name="requerimientos">
-			<option value="balon">Balones</option>
-			<option value="agua">Agua</option>
-			<option value="medico">Médico</option>
-		</select>
-		Otro:<textarea name="Otro"></textarea>
+
+		Requerimientos:  
+		<br/> Balón<input type="checkbox" name="req[]" value="balon">
+		<br/> Agua<input type="checkbox" name="req[]" value="agua">
+		<br/> Médico<input type="checkbox" name="req[]" value = "medico">
+		<br/>
 		
-		Solicitud de información adicional: <textarea name="infadicional"></textarea><br/>
+		Otro:<textarea name="otro"></textarea>
+		
+		Solicitud de información adicional: <textarea name="infAdicional"></textarea><br/>
 
 		<input type="submit" name="enviar" value="Enviar">
 		<input type="reset" name="borrar" value="Borrar">

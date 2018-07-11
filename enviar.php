@@ -30,4 +30,20 @@
 		$_materiales = $_POST["materiales"];
 		$_infAdicional = $_POST["infAdicional"];
 
+		
+		echo $_POST["req"];
+		
+
+		# Campos de Requerimientos. 
+		#foreach($_POST["req"] as $selected => $valor){
+		#		echo "$valor";
+		#}
+
+		#echo(sizeof($valor));
+
+		
+		
+
+
+
 ?>
